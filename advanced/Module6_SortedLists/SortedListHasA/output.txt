@@ -1,0 +1,50 @@
+jhr@Javiers-MacBook-Pro SortedListHasA % ./a.out
+Hello, welcome to our Hall of Fame!
+
+Enter high score (negative number to quit): 
+566
+
+High Scores Hall of Fame: 
+566 100 94 57 56 23 0 
+
+Enter high score (negative number to quit): 
+5461
+
+High Scores Hall of Fame: 
+5461 566 100 94 57 56 23 0 
+
+Enter high score (negative number to quit): 
+456
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 0 
+
+Enter high score (negative number to quit): 
+23
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 23 0 
+
+Enter high score (negative number to quit): 
+1
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 23 1 0 
+
+Enter high score (negative number to quit): 
+14
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 23 14 1 0 
+
+Enter high score (negative number to quit): 
+2
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 23 14 2 1 0 
+
+Enter high score (negative number to quit): 
+-1
+
+High Scores Hall of Fame: 
+5461 566 456 100 94 57 56 23 23 14 2 1 0 

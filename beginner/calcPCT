@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+// function to calculate percentage of points for students
+float calcPCT(float total, float lostpoints);
+void calcPCT(float total, float lostpoints, float& pct);
+
+int main()
+{
+    float pct = 0;
+    cout << calcPCT(100, 10) << endl; // calling function with 2 arguments and displaying return value
+    calcPCT(100, 10, pct); // calling function with 3 arguments
+    cout << pct << endl;
+}
+
+float calcPCT(float total, float lostpoints)
+{
+    float pct;
+    pct = (total - lostpoints)/total;
+    return pct;
+}
+
+void calcPCT(float total, float lostpoints, float& pct) //parameters
+{
+    pct = (total - lostpoints)/total;
+}
+

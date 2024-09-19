@@ -1,0 +1,9 @@
+Javier Hernández Requena
+CS 110C
+Sort Efficiency
+
+Q - In big O notation, what is the expected efficiency?  Why is counting sort impractical as a general sorting algorithm?
+
+A - O(n+k)
+  - Using the counting sort as a general sorting algorithm is impractical due to the size of the array that must be made, but due to the fact that there are no comparisons made, this makes it better than some comparison based sorting algorithms.
+
